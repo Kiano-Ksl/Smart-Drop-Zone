@@ -43,7 +43,7 @@ Proyek Tugas Besar Praktikum Pemrograman Berorientasi Objek (PBO).
 * Muh. Ammar Samkhan
 * Airil Nasbi
 * La Ode Muhammad Fadli Malik
-* Muhammad Widyadhana Rafi'putra (NIM: 13020240108)
+* M.W.Rafi'putra
 
 ---
 *Jika proyek ini membantu memberikan inspirasi, jangan ragu untuk memberikan ⭐ (Star) pada repository ini!*
