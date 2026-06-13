@@ -5,6 +5,7 @@
 ---
 
 ## 🎥 Demonstrasi Aplikasi
+https://github.com/user-attachments/assets/1aacb64e-13d5-41f3-b504-f7e66afe8c22
 
 
 ---
@@ -16,6 +17,7 @@
 
 **Halaman Histori:**
 <img width="1680" height="728" alt="screen2" src="https://github.com/user-attachments/assets/00fdf55c-a6ca-41ef-8354-2a1024d90d72" />
+
 
 ---
 
