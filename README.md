@@ -12,7 +12,8 @@
 ## 📸 Tangkapan Layar (Screenshots)
 
 **Halaman Drop Zone & Halaman Histori:**
-
+<img width="1630" height="934" alt="screen1" src="https://github.com/user-attachments/assets/f586568a-2087-4c04-a8da-b9418882e42e" />
+<img width="1680" height="728" alt="screen2" src="https://github.com/user-attachments/assets/00fdf55c-a6ca-41ef-8354-2a1024d90d72" />
 
 ---
 
