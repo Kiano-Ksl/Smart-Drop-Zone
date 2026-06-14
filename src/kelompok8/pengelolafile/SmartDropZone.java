@@ -40,12 +40,10 @@ public class SmartDropZone extends JFrame {
         
         tumpukanHalaman = new CardLayout();
         panelUtama = new JPanel(tumpukanHalaman);
-        
-        // ==========================================================
+    
         // HALAMAN 1: AREA DROP ZONE
-        // ==========================================================
         JPanel halamanDropZone = new JPanel(new BorderLayout(10, 10));
-        halamanDropZone.setBorder(new EmptyBorder(10, 10, 10, 10)); // Memberi jarak tepi (padding)
+        halamanDropZone.setBorder(new EmptyBorder(10, 10, 10, 10)); 
         
         modelDaftarFile = new DefaultListModel<>();
         listFileTersimpan = new JList<>(modelDaftarFile);
@@ -70,7 +68,7 @@ public class SmartDropZone extends JFrame {
                             JOptionPane.showMessageDialog(SmartDropZone.this, "Gagal! File melebihi 2 GB: " + fileMasuk.getName());
                         } else {
                             fileSiapPindah.add(fileMasuk);
-                            modelDaftarFile.addElement("📁 " + fileMasuk.getName()); // Ditambah icon text
+                            modelDaftarFile.addElement("📁 " + fileMasuk.getName()); 
                         }
                     }
                     return true;
@@ -128,21 +126,19 @@ public class SmartDropZone extends JFrame {
         halamanDropZone.add(scrollList, BorderLayout.CENTER);
         
         JButton tombolLihatHistori = new JButton("Lihat Histori Pemindahan");
-        tombolLihatHistori.setBackground(new Color(70, 130, 180)); // Warna Steel Blue
+        tombolLihatHistori.setBackground(new Color(70, 130, 180)); 
         tombolLihatHistori.setForeground(Color.WHITE);
         tombolLihatHistori.setFont(new Font("Arial", Font.BOLD, 14));
         tombolLihatHistori.setPreferredSize(new Dimension(100, 40));
         halamanDropZone.add(tombolLihatHistori, BorderLayout.SOUTH);
 
-        // ==========================================================
         // HALAMAN 2: AREA HISTORI
-        // ==========================================================
         JPanel halamanHistori = new JPanel(new BorderLayout(10, 10));
         halamanHistori.setBorder(new EmptyBorder(10, 10, 10, 10));
         
         JTextArea teksHistori = new JTextArea();
         teksHistori.setEditable(false);
-        teksHistori.setFont(new Font("Consolas", Font.PLAIN, 12)); // Font ala terminal yang rapi
+        teksHistori.setFont(new Font("Consolas", Font.PLAIN, 12));
         teksHistori.setMargin(new Insets(5, 5, 5, 5));
         
         JScrollPane scrollHistori = new JScrollPane(teksHistori);
@@ -153,12 +149,12 @@ public class SmartDropZone extends JFrame {
         JPanel panelTombolHistori = new JPanel(new GridLayout(1, 2, 10, 0));
         
         JButton tombolKembali = new JButton("Kembali");
-        tombolKembali.setBackground(new Color(105, 105, 105)); // Dim Gray
+        tombolKembali.setBackground(new Color(105, 105, 105)); 
         tombolKembali.setForeground(Color.WHITE);
         tombolKembali.setFont(new Font("Arial", Font.BOLD, 14));
         
         JButton tombolHapusHistori = new JButton("Hapus Histori");
-        tombolHapusHistori.setBackground(new Color(220, 20, 60)); // Crimson Red
+        tombolHapusHistori.setBackground(new Color(220, 20, 60)); 
         tombolHapusHistori.setForeground(Color.WHITE);
         tombolHapusHistori.setFont(new Font("Arial", Font.BOLD, 14));
         
@@ -168,9 +164,7 @@ public class SmartDropZone extends JFrame {
         
         halamanHistori.add(panelTombolHistori, BorderLayout.SOUTH);
         
-        // ==========================================================
         // MEMASUKKAN KEDUA HALAMAN & AKSI TOMBOL
-        // ==========================================================
         panelUtama.add(halamanDropZone, "HALAMAN_DROP");
         panelUtama.add(halamanHistori, "HALAMAN_HISTORI");
         add(panelUtama, BorderLayout.CENTER);
@@ -199,9 +193,9 @@ public class SmartDropZone extends JFrame {
             if (pilihan == JOptionPane.YES_OPTION) {
                 File fileHistori = new File("riwayat_pemindahan.txt");
                 if (fileHistori.exists()) {
-                    fileHistori.delete(); // Menghapus file .txt
+                    fileHistori.delete(); 
                 }
-                bacaHistoriDariFile(teksHistori); // Menyegarkan layar teks
+                bacaHistoriDariFile(teksHistori); 
             }
         });
     }
