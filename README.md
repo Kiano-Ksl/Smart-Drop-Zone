@@ -1,5 +1,11 @@
 # 📦 Smart Drop-Zone (Java GUI)
 
+![Version](https://img.shields.io/badge/version-v1.0--alpha-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-Alpha-orange?style=for-the-badge)
+![Platform](https://img.shields.io/badge/platform-Windows_Desktop-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Language](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Build](https://img.shields.io/badge/build-.exe-brightgreen?style=for-the-badge)
+
 **Smart Drop-Zone** adalah aplikasi utilitas desktop ringan berbasis Java GUI yang dirancang untuk mempermudah dan mempercepat proses penyortiran serta pendistribusian file melalui mekanisme *drag-and-drop*. Aplikasi ini dirancang menggunakan arsitektur pemrograman *Super Basic* tanpa memerlukan instalasi *database* pihak ketiga (menggunakan metode baca-tulis *File I/O* murni).
 
 ---
