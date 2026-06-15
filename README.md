@@ -46,16 +46,8 @@ git clone https://github.com/username-kamu/Smart-Drop-Zone.git
 
 *(Ingin langsung memakai aplikasinya tanpa coding? Silakan unduh file `.exe` di tab **[Releases]**)*
 
----
-
-
-## 👨‍💻 Tim Pengembang
-Proyek Tugas Besar Praktikum Pemrograman Berorientasi Objek (PBO).
-**Kelompok 8:**
-* Muh. Ammar Samkhan
-* Airil Nasbi
-* La Ode Muhammad Fadli Malik
-* M.W.Rafi'putra
 
 ---
+
+
 *Jika proyek ini membantu memberikan inspirasi, jangan ragu untuk memberikan ⭐ (Star) pada repository ini!*
