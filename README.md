@@ -1,4 +1,4 @@
-# 📦 Smart Drop-Zone (Java GUI)
+# Smart Drop-Zone (Java GUI)
 
 ![Version](https://img.shields.io/badge/version-v1.0--alpha-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-Alpha-orange?style=for-the-badge)
@@ -24,14 +24,6 @@ https://github.com/user-attachments/assets/1aacb64e-13d5-41f3-b504-f7e66afe8c22
 ## **Halaman Histori:**
 <img width="1680" height="728" alt="screen2" src="https://github.com/user-attachments/assets/00fdf55c-a6ca-41ef-8354-2a1024d90d72" />
 
-
----
-
-## ✨ Fitur Utama
-1. **Always-on-Top Floating Window**: Jendela aplikasi akan selalu berada di lapisan layar paling depan, memastikan proses *drag-and-drop* file tidak terganggu oleh aplikasi lain.
-2. **In-and-Out Drag System**: Mendukung penangkapan file yang masuk ke dalam program, serta sensor ekspor untuk memindahkan (*Cut*) file menuju destinasi akhir di Windows Explorer.
-3. **Smart History Tracker**: Secara otomatis mencatat riwayat lalu-lintas file (Waktu, Nama File, Lokasi Awal) ke dalam *local storage* menggunakan metode `File I/O`.
-4. **Safety Limit**: Proteksi *error handling* yang menolak masuknya file berukuran lebih dari 2 GB untuk menjaga efisiensi *RAM*.
 
 ---
 
