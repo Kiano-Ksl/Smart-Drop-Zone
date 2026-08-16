@@ -10,13 +10,13 @@
 
 ---
 
-## 🎥 Demonstrasi Aplikasi
+## Demonstrasi Aplikasi
 https://github.com/user-attachments/assets/1aacb64e-13d5-41f3-b504-f7e66afe8c22
 
 
 ---
 
-## 📸 Tangkapan Layar (Screenshots)
+## Tangkapan Layar (Screenshots)
 
 ## **Halaman Drop Zone:**
 <img width="1630" height="934" alt="screen1" src="https://github.com/user-attachments/assets/f586568a-2087-4c04-a8da-b9418882e42e" />
@@ -27,7 +27,7 @@ https://github.com/user-attachments/assets/1aacb64e-13d5-41f3-b504-f7e66afe8c22
 
 ---
 
-## 🚀 Cara Menjalankan Source Code (Untuk Developer)
+## Cara Menjalankan Source Code (Untuk Developer)
 1. *Clone repository* ini:
 ```bash
 git clone https://github.com/username-kamu/Smart-Drop-Zone.git
